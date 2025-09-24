@@ -7,3 +7,9 @@ CREATE TABLE employee (
     age INT
 );
 
+INSERT INTO employee (name, department, salary, experience, age)
+VALUES 
+('Anjali Talluri', 'IT', 50000.00, '2 years', 24),
+('Ravi Kumar', 'HR', 40000.00, '3 years', 28),
+('Sita Sharma', 'Finance', 55000.00, '5 years', 30);
+
